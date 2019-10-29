@@ -1,4 +1,5 @@
-import "package:flutter/material.dart";
+//import 'package:flutter/material.dart';
+//import 'package:app/route/route.dart';
 
 void main() => runApp(new MyApp());
 
@@ -16,28 +17,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-class TipRoute extends StatelessWidget {
-  TipRoute({
-    Key key,
-    @required this.text, // 接受一个text参数
-  }) : super(key: key);
-  final String text;
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('提示'),
-      ),
-      body: Padding(
-
-      )
-    )
-  }
-}
-
-
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key,this.title}) :super(key: key);
